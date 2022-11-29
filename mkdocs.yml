@@ -1,0 +1,37 @@
+site_name: Ets el que menges - Documentació Projectes
+site_url: https://etselquemenges.cat/
+nav:
+    - Home: index.md
+    - 'Projectes':
+        - 'Woocommerce':
+            - 'Stripe': 'projectes/stripe.md'
+            - 'Custom payment Checkout': 'projectes/custom-payment-checkout.md'
+            - 'One page Checkout': 'projectes/one-page-checkout.md'
+            - 'Fraccionats': 'projectes/stripe-fraccionats.md'
+            - 'Hotmart': 'projectes/hotmart.md'
+            - 'Promocions': 'projectes/promocions.md'
+        - 'Altres':
+            - 'Workshops': 'projectes/workshops.md'
+            - 'adManager': 'projectes/admanager.md'
+            - 'Kpis': 'projectes/kpis.md'
+            - 'Discord': 'projectes/discord.md'
+            - 'Area Socis': 'projectes/membership-area.md'
+            - 'Media Tracking': 'projectes/membership-area.md'
+            - 'Comunitat': 'projectes/membership-area.md'
+            - 'Telegram': 'projectes/membership-area.md'
+    - Utils:
+        - 'Active Campaign': 'projectes/membership-area.md'
+        - 'Scripts': 'projectes/membership-area.md'
+        - 'Crons': 'projectes/membership-area.md'
+    - Servidor:
+        - 'Servidor test': 'server/server-test.md'
+        
+theme: material
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+    - tables
+    - footnotes
